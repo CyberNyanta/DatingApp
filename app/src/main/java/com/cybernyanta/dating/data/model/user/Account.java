@@ -1,4 +1,4 @@
-package com.cybernyanta.dating.data.model;
+package com.cybernyanta.dating.data.model.user;
 
 import com.cybernyanta.dating.data.model.BaseEntity;
 
@@ -18,6 +18,7 @@ public class Account extends BaseEntity {
     private String userName;
     private String password;
     private int[] authTypes;
+    private long lastCheckeDate;
 
     public String getUserId() {
         return userId;
@@ -49,5 +50,13 @@ public class Account extends BaseEntity {
 
     public void setAuthTypes(int[] authTypes) {
         this.authTypes = authTypes;
+    }
+
+    public long getLastCheckeDate() {
+        return lastCheckeDate;
+    }
+
+    public void setLastCheckeDate(long lastCheckeDate) {
+        this.lastCheckeDate = lastCheckeDate;
     }
 }

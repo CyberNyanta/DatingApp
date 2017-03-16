@@ -1,4 +1,4 @@
-package com.cybernyanta.dating.data.model;
+package com.cybernyanta.dating.data.model.game;
 
 /**
  * Created by yevhenii.siianko on 3/16/2017.

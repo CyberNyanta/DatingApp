@@ -1,4 +1,4 @@
-package com.cybernyanta.dating.data.model;
+package com.cybernyanta.dating.data.model.user;
 
 import com.cybernyanta.dating.data.model.BaseEntity;
 
@@ -11,6 +11,7 @@ public class UserCoordinate extends BaseEntity {
     private long timeStamp;
     private Double latitude;
     private Double longitude;
+    private int gender;
 
     public String getUserId() {
         return userId;
@@ -42,5 +43,13 @@ public class UserCoordinate extends BaseEntity {
 
     public void setLongitude(Double longitude) {
         this.longitude = longitude;
+    }
+
+    public int getGender() {
+        return gender;
+    }
+
+    public void setGender(int gender) {
+        this.gender = gender;
     }
 }

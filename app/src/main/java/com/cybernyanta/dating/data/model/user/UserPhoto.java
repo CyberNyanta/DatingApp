@@ -1,4 +1,4 @@
-package com.cybernyanta.dating.data.model;
+package com.cybernyanta.dating.data.model.user;
 
 import com.cybernyanta.dating.data.model.BaseEntity;
 
